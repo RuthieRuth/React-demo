@@ -135,4 +135,3 @@ function Counter() {
 
 - className: a way to add css styles to an elkement. it tells react component to look for example .card in css file
 
-## 

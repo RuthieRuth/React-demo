@@ -5,7 +5,7 @@
 import "./App.css";
 import Card from "./Components/Card"; // if the jsx is not there, its still reads it as JS since it react is JS
 import { useState } from "react";
-import personsData from "./persons"; // formerly called persons since itsan export.
+import personsData from "./Data/persons"; // formerly called persons since itsan export.
 import Button from "./Components/Button";
 
 function App() {

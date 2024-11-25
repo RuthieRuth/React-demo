@@ -135,3 +135,12 @@ function Counter() {
 
 - className: a way to add css styles to an elkement. it tells react component to look for example .card in css file
 
+
+## Get a router set up from react router
+npm install react-router-dom
+should be found in package.json -  "react-router-dom": "^6.28.0"
+
+
+pages are the layout with url eg: home, about, contact us. it can be in the components
+
+route folder are for making routes

@@ -30,3 +30,10 @@ main{
   gap: 20px;
 }
 
+nav a{
+  color: black;
+}
+
+nav a.active{
+  color:bisque;
+}

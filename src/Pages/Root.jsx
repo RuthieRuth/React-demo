@@ -4,8 +4,7 @@ import Header from "../Components/Header";
 const Root = () => {
     return (
         <div>
-            <Header/> 
-            {/* I am the Root page  */}
+            <Header/> {/* I am the Root page  */}
             <Outlet/>
         </div>
         );

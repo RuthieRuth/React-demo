@@ -15,7 +15,7 @@ import Button from "./Button";
 } */
 
 // DESTRUCTURTNG = props changed to object properties. Removed props from this list
-function Card ({firstname, title, age, animal}) { // rename click
+function Card ({firstname, title, age, animal, onClick}) { // rename click
 
   const [isEditing, setIsEditing]= useState(false);
   const [animalValue, setAnimalValue] = useState(animal);
@@ -36,7 +36,12 @@ function Card ({firstname, title, age, animal}) { // rename click
         ? (<input type="text" value={animalValue} onChange={handlechange} />) 
         : (<p>Animal:{animalValue}</p>)}
 
-        <Button onClick={toggleEdit} text={isEditing ? 'Save': 'Edit'} /> 
+        <Button 
+                onClick={toggleEdit} 
+                text={isEditing ? 'Save': 'Edit'} 
+                variant ="secondary" /> 
+                
+        <Button text = "See more" onClick={onClick}/>
 
          {/* <Button text="Edit" click={click} />   */}
     

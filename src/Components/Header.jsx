@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header-container">
 
       <h1>
         <NavLink to="/">React demo App </NavLink>

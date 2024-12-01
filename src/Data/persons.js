@@ -1,4 +1,3 @@
-// place in a new folder called data
 const persons = [
     {
         id:1,
